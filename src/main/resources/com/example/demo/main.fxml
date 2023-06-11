@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="754.0" style="-fx-background-color: #FFEFD5" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.UserPanelController">
+    <children>
+        <TableView fx:id="table" prefHeight="264.0" prefWidth="754.0" style="-fx-background-color: #FFEFD5;">
+            <columns>
+                <TableColumn fx:id="colName" prefWidth="110.99996948242188" text="Название отеля" />
+                <TableColumn fx:id="colDate_check_in" prefWidth="135.0" text="Дата заселения" />
+                <TableColumn fx:id="colDate_check_out" minWidth="5.33331298828125" prefWidth="128.0" text="Дата выселения" />
+                <TableColumn fx:id="colPrice" minWidth="0.0" prefWidth="182.6666259765625" text="Цена $" />
+            </columns>
+            <columnResizePolicy>
+                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+            </columnResizePolicy>
+        </TableView>
+
+    </children>
+</Pane>
